@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .registration-container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 900px;
+      margin-top: 2%;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-size: 2rem;
+      color: #007bff;
+    }
+    .form-control {
+      border-radius: 30px;
+      padding: 12px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-radius: 30px;
+      padding: 12px;
+      font-size: 1rem;
+      width: 100%;
+      cursor: pointer;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .section-heading {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #007bff;
+      margin-bottom: 15px;
+      text-align: left;
+      padding-left: 10px;
+      border-left: 4px solid #007bff;
+    }
+    .section-divider {
+      border-bottom: 2px solid #007bff;
+      margin: 20px 0;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .row {
+      margin-bottom: 20px;
+    }
+    .col-md-6 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="registration-container">
+    <h2>User Registration</h2>
+
+    <!-- Personal Information Section -->
+    <div class="section">
+      <div class="section-heading">Personal Information</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" id="name" value="John Doe" placeholder="Enter your full name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" value="johndoe" placeholder="Enter your username">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <!-- Contact Information Section -->
+    <div class="section">
+      <div class="section-heading">Contact Information</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" value="johndoe@example.com" placeholder="Enter your email">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone" value="123-456-7890" placeholder="Enter phone number">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <!-- Address Information Section -->
+    <div class="section">
+      <div class="section-heading">Address Information</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="street">Street Address</label>
+            <input type="text" class="form-control" id="street" value="123 Main St" placeholder="Enter street address">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="suite">Suite</label>
+            <input type="text" class="form-control" id="suite" value="Apt 101" placeholder="Enter suite">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <!-- City, Zip, and Company Information Section -->
+    <div class="section">
+      <div class="section-heading">City, Zip, and Company Information</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" value="Cityville" placeholder="Enter city">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="zipcode">Zip Code</label>
+            <input type="text" class="form-control" id="zipcode" value="12345" placeholder="Enter zip code">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <!-- Website and Company Section -->
+    <div class="section">
+      <div class="section-heading">Website and Company</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="website">Website</label>
+            <input type="text" class="form-control" id="website" value="johnswebsite.com" placeholder="Enter website URL">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="companyName">Company Name</label>
+            <input type="text" class="form-control" id="companyName" value="John's Enterprises" placeholder="Enter company name">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <!-- Catchphrase and BS Section -->
+    <div class="section">
+      <div class="section-heading">Company Details</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="companyCatchphrase">Company Catchphrase</label>
+            <input type="text" class="form-control" id="companyCatchphrase" value="Innovating the future" placeholder="Enter company catchphrase">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="companyBS">Company BS</label>
+            <input type="text" class="form-control" id="companyBS" value="Technology Solutions" placeholder="Enter company BS">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <!-- Password Section -->
+    <div class="section">
+      <div class="section-heading">Set Password</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Create a password">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-4">Register</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

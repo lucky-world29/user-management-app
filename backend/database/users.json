@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Bibhuranjan Mohanty",
+    "username": "bibhuranjan",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "9439914183",
+    "website": "bibhuranjan.me",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    },
+    "password": "$2a$10$KSWhy.CjYkbrmt.f0xdq7OQVJS5Wdm3IcNTLoLMubLmp0gB1mj2Ti"
+  }
+]
