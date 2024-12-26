@@ -60,10 +60,10 @@ Base URL: http://localhost:5000
     "username": "bibhuranjan",
     "email": "Nathan@yesenia.net",
     "address": {
-      "street": "Douglas Extension",
+      "street": "Achaya Vihar",
       "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
+      "city": "Bhubaneswar",
+      "zipcode": "751013",
       "geo": {
         "lat": "-68.6102",
         "lng": "-47.0653"
@@ -72,7 +72,7 @@ Base URL: http://localhost:5000
     "phone": "9439914183",
     "website": "bibhuranjan.me",
     "company": {
-      "name": "Romaguera-Jacobson",
+      "name": "CSM Technologies",
       "catchPhrase": "Face to face bifurcated interface",
       "bs": "e-enable strategic applications"
     },
