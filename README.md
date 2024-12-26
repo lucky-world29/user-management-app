@@ -225,7 +225,7 @@ project-root/
 - **bcrypt**: For hashing passwords
 - **jsonwebtoken**: For authentication
 - **nodemon**: For live server monitoring (development only)
-- **cors** : For allowing cross origirn references 
+- **cors** : For allowing cross origin references 
 ---
 
 ## Notes
